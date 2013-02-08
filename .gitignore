@@ -7,3 +7,5 @@ examples/helloworld/helloworld
 docs/html
 tests/tests
 examples/greeting/greeting
+
+*.pro.user*

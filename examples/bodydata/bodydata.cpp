@@ -64,6 +64,7 @@ BodyData::BodyData()
 void BodyData::handle(QHttpRequest *req, QHttpResponse *resp)
 {
     Responder *r = new Responder(req, resp);
+    Q_UNUSED(r);
 }
 
 int main(int argc, char **argv)
